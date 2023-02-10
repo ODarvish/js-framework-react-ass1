@@ -1,0 +1,27 @@
+:root {
+  --accent-color: rgb(117, 70, 52);
+  --color-opacity: rgba(244, 158, 126, 0.08);
+  --dark-color: #0d0c0f;
+  --light-color: rgb(104, 104, 78);
+  --medium-color: rgb(26, 13, 13);
+  background-color: #17063b77;
+  color: var(--dark-color);
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 14px;
+ max-width: 1280px; 
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
